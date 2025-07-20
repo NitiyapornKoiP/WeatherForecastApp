@@ -1,39 +1,29 @@
-Architecture starter template (single module)
+WeatherForecastApp
 ==================
 
-This template is compatible with the latest **stable** version of Android Studio.
-
-## Screenshots
-![Screenshot](https://github.com/android/architecture-templates/raw/main/screenshots.png)
+Use architecture
+https://github.com/android/architecture-templates/tree/base
 
 ## Features
 
-* Room Database
+* Retrofit
 * Hilt
-* ViewModel, read+write
+* ViewModel
 * UI in Compose, list + write (Material3)
 * Navigation
 * Repository and data source
 * Kotlin Coroutines and Flow
-* Unit tests
-* UI tests using fake data with Hilt
 
 ## Usage
 
 1. Clone this branch
 
 ```
-git clone https://github.com/android/architecture-templates.git --branch base
+git clone https://github.com/NitiyapornKoiP/WeatherForecastApp
 ```
 
-2. Run the customizer script:
-
-```
-./customizer.sh your.package.name DataItemType [MyApplication]
-```
-
-Where `your.package.name` is your app ID (should be lowercase) and `DataItemType` is used for the
-name of the screen, exposed state and data base entity (should be PascalCase). You can add an optional application name.
+2. Set API Key
+3. Run this project
 
 # License
 
